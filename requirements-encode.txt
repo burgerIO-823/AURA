@@ -1,0 +1,8 @@
+# Extra packages for data_preparation/encode_audio.py (X-Codec binaural rendering + RVQ encoding).
+# Install on top of requirements.txt.  setuptools<81 is required because descript-audiotools
+# still imports pkg_resources.
+setuptools<81
+omegaconf
+einops
+descript-audiotools==0.7.2
+descript-audio-codec
